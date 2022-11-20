@@ -1,59 +1,20 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
 
 # Xylophone
 
-## Our Goal
+## Objetiivo
 
-The goal of this tutorial is to dive into a simple iOS recipe - how to play sound and use an Apple library called AVFoundation. The most important skill of a great programmer is being able to solve your own problems. We’ll do that by exploring StackOverflow, Apple Documentation and learning how to search for solutions effectively. By learning to use these tools, you’ll be able to start adding custom features to an app and get it to do what you want it to.
+O objetivo deste exercício é mergulhar em uma receita simples do iOS - como reproduzir som e usar uma biblioteca da Apple chamada AVFoundation. A habilidade mais importante de um grande programador é ser capaz de resolver seus próprios problemas. Realizei isso explorando o StackOverflow, a Documentação da Apple e aprendendo a procurar soluções de forma eficaz.
 
 
-## What you will create
+## O que eu aprendi?
 
-You will be making your first musical instrument! Music apps are so popular on the App Store that they even get their own category. So in this module, we’re going to make a colourful XyloPhone app. Get it? Ok, the jokes are bad, but remember, I only wrote the good ones... 
-
-## What you will learn
-
-* How to play sound using AVFoundation and AVAudioPlayer.
-* Understand Apple documentation and how to use StackOverflow.
-* Functions and methods in Swift. 
+* Como reproduzir som usando AVFoundation e AVAudioPlayer.
+* Entendendo a documentação da Apple e como usar o StackOverflow.
+* Funções e métodos em Swift.
 * Data types.
 * Swift loops.
 * Variable scope.
-* The ViewController lifecycle.
-* Error handling in Swift.
-* Code refactoring.
-* Basic debugging.
-
-## Replacement Code
-
-```
-import UIKit
-import AVFoundation
-
-class ViewController: UIViewController {
-    
-    var player: AVAudioPlayer!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-
-    @IBAction func keyPressed(_ sender: UIButton) {
-        playSound()
-    }
-    
-    func playSound() {
-        let url = Bundle.main.url(forResource: "C", withExtension: "wav")
-        player = try! AVAudioPlayer(contentsOf: url!)
-        player.play()
-                
-    }
-}
-```
-
-
-
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
-
-![End Banner](Documentation/readme-end-banner.png)
-
+* O ciclo de vida do ViewController.
+* Tratamento de erros no Swift.
+* Refatoração de código.
+* Debugging básico.
