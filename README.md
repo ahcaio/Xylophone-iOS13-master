@@ -1,6 +1,8 @@
 
 # Xylophone
 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/ahcaio/Xylophone-iOS13-master/blob/main/LICENSE) 
+
 ## Objetivo
 
 O objetivo deste exercício é mergulhar em uma receita simples do iOS - como reproduzir som e usar uma biblioteca da Apple chamada AVFoundation. A habilidade mais importante de um grande programador é ser capaz de resolver seus próprios problemas. Realizei isso explorando o StackOverflow, a Documentação da Apple e aprendendo a procurar soluções de forma eficaz.
